@@ -18,6 +18,8 @@
 	(not matched)	(non associato)
 	(picture or object)	(immagine o oggetto)
 	*Bold* and _italic_ as real formatting	*Grassetto* e _corsivo_ con formattazione reale
+	+Bin	+Bin
+	+LOC	+LOC
 	0 or More Characters	0 o più caratteri
 	1. Formatting restrictions	1. Restrizioni di formattazione
 	1.5 Line Spacing	Interlinea 1,5
@@ -51,6 +53,7 @@
 	A mail merge field	Un campo di stampa unione
 	A numbered sequence (figures, tables…)	Una sequenza numerata (figure, tabelle…)
 	A password is required to open this document.	Per aprire questo documento è necessaria una password.
+	a shape inside a drawing canvas is placed by the canvas	una forma dentro un'area di disegno è posizionata dall'area stessa
 	A table of contents	Un sommario
 	A xor B	A xor B
 	A, B, C, …	A, B, C, …
@@ -69,6 +72,8 @@
 	Accents	Accenti
 	Accept	Accetta
 	Accept All Changes	Accetta tutte le modifiche
+	Accept All Changes and Stop Tracking	Accetta tutte le modifiche e disattiva le revisioni
+	Accept and Move to Next	Accetta e passa alla successiva
 	Accept This Change	Accetta questa modifica
 	Accessed on	Consultato il
 	Accessibility Pane	Riquadro Accessibilità
@@ -78,6 +83,7 @@
 	Add a period with double-space	Aggiungi un punto con doppio spazio
 	Add a Table	Aggiungi una tabella
 	Add at least one field.	Aggiungi almeno un campo.
+	Add Blank Paragraphs Between	Aggiungi paragrafi vuoti tra i paragrafi
 	Add Chart Element	Aggiungi elemento grafico
 	Add Condition	Aggiungi condizione
 	Add Field	Aggiungi campo
@@ -173,11 +179,13 @@
 	Anyone can open this document. Encrypt it with a password to keep it private.	Chiunque può aprire questo documento. Crittografalo con una password per mantenerlo privato.
 	Anyone who opens the document will need this password.	Chiunque apra il documento avrà bisogno di questa password.
 	APA	APA
+	Applies the next time WordCraft starts.	Ha effetto al prossimo avvio di WordCraft.
 	Apply as you type	Applica durante la digitazione
 	Apply Asian line-breaking rules (kinsoku)	Applica le regole asiatiche di interruzione di riga (kinsoku)
 	Apply formatting to:	Applica formattazione a:
 	Apply Style	Applica stile
 	Apply Styles	Applica stili
+	Apply to the whole document	Applica all'intero documento
 	Arabic	Arabo
 	Arch Down	Arco in giù
 	Arch Up	Arco in su
@@ -218,6 +226,7 @@
 	Automatic Table 2 (2 levels)	Sommario automatico 2 (2 livelli)
 	Automatically add words to list (First Letter)	Aggiungi automaticamente le parole all'elenco (Prima lettera)
 	Automatically add words to list (INitial CAps)	Aggiungi automaticamente le parole all'elenco (DUe MAiuscole)
+	Automatically as you type	Automaticamente durante la digitazione
 	Automatically hyphenate document	Sillabazione automatica del documento
 	Automatically Update Document Styles	Aggiorna automaticamente gli stili del documento
 	Automatically update document styles	Aggiorna automaticamente gli stili del documento
@@ -297,6 +306,7 @@
 	Brackets with Separators	Parentesi con separatori
 	Breaks	Interruzioni
 	Breve	Breve
+	Bright Green	Verde brillante
 	Brighter +20%	Più luminoso +20%
 	Brightness, contrast and sharpness	Luminosità, contrasto e nitidezza
 	Browse in WordCraft…	Sfoglia in WordCraft…
@@ -306,9 +316,11 @@
 	Built-in style	Stile predefinito
 	Built-in styles can't be deleted.	Gli stili predefiniti non possono essere eliminati.
 	Bulgarian	Bulgaro
+	Bullet character	Carattere del punto elenco
 	Bullet Library	Raccolta elenchi puntati
 	Bullets	Elenchi puntati
 	By author	Per autore
+	by {developer}	di {developer}
 	Calendar	Calendario
 	Can't be deleted	Non può essere eliminato
 	Can't find a command? Press {key} and type what you want to do.	Non trovi un comando? Premi {key} e scrivi cosa vuoi fare.
@@ -388,9 +400,11 @@
 	charts and diagrams can't be moved or resized yet	grafici e diagrammi non si possono ancora spostare né ridimensionare
 	Check	Pipa
 	Check Accessibility	Verifica accessibilità
+	Check Again	Controlla di nuovo
 	Check Box Content Control	Controllo contenuto casella di controllo
 	Check Compatibility	Verifica compatibilità
 	Check for Errors	Controlla errori
+	Check for\nUpdates…	Verifica\naggiornamenti…
 	Check Spelling as You Type	Controlla ortografia durante la digitazione
 	Check spelling as you type	Controlla ortografia durante la digitazione
 	Check\nAccessibility	Verifica\naccessibilità
@@ -427,6 +441,7 @@
 	Clipboard Contents	Contenuto degli Appunti
 	Clipboard Items	Elementi degli Appunti
 	Clipboard Pane	Riquadro Appunti
+	Close Document	Chiudi documento
 	Close Equation	Chiudi equazione
 	Close Header and Footer	Chiudi intestazione e piè di pagina
 	Close Outline View	Chiudi visualizzazione Struttura
@@ -495,7 +510,10 @@
 	Controls	Controlli
 	Conversions	Conversioni
 	Convert between built-up and linear form	Converti tra formato professionale e lineare
+	Convert Indents to Spaces	Converti rientri in spazi
+	Convert Line Breaks to Paragraphs	Converti interruzioni di riga in paragrafi
 	Convert Notes	Converti note
+	Convert Spaces to Indentation	Converti spazi in rientri
 	Convert Text to Table	Converti testo in tabella
 	Convert Text to Table…	Converti testo in tabella…
 	Convert to Shapes	Converti in forme
@@ -537,6 +555,103 @@
 	Crop on the page works on unturned pictures: set Rotation to 0° first, or use the crop boxes	Il ritaglio sulla pagina funziona solo con immagini non ruotate: imposta prima Rotazione a 0° oppure usa le caselle di ritaglio
 	Cross-reference	Riferimento incrociato
 	Cross-reference:	Riferimento incrociato:
+	Custom Document Properties	Proprietà personalizzate del documento
+	Dark Blue	Blu scuro
+	Dark Red	Rosso scuro
+	Dark Yellow	Giallo scuro
+	Define New Bullet…	Definisci nuovo punto elenco…
+	Delete Blank Paragraphs	Elimina paragrafi vuoti
+	Delete Blank Paragraphs in the Whole Document	Elimina paragrafi vuoti in tutto il documento
+	Delete Previous Sentence	Elimina frase precedente
+	Discard recovery copy	Elimina copia di recupero
+	Document background	Sfondo del documento
+	Don't show this again	Non mostrare più
+	Download from {publisher}	Scarica da {publisher}
+	Download the font. If it comes as a .zip file, unpack it.	Scarica il carattere. Se è compresso in un file .zip, estrailo.
+	East	Est
+	Emphasis Mark	Segno di enfasi
+	First capital	Prima lettera maiuscola
+	Fit One Page	Adatta a una pagina
+	Fit\nOne Page	Adatta a\nuna pagina
+	Flat OpenDocument Text (*.fodt)	Testo OpenDocument flat (*.fodt)
+	Fonts come with licence terms. Read the publisher's terms on the download page: following them is up to you.	I caratteri sono soggetti a condizioni di licenza. Leggi le condizioni dell'editore nella pagina di download: rispettarle spetta a te.
+	Get the Missing Fonts	Ottieni i caratteri mancanti
+	Get the Missing Fonts…	Ottieni i caratteri mancanti…
+	Grammar	Grammatica
+	Gray-25%	Grigio 25%
+	Gray-50%	Grigio 50%
+	Ignore Once	Ignora una volta
+	Indent Leading Spaces	Converti spazi iniziali in rientri
+	Indents to Leading Spaces	Converti rientri in spazi iniziali
+	Insert Blank Paragraphs Between	Inserisci paragrafi vuoti tra i paragrafi
+	Install Language Pack	Installa pacchetto lingua
+	Item Color	Colore elemento
+	Its licence limits who may use it: read the terms first.	La licenza limita chi può usarlo: leggi prima le condizioni.
+	Join Lines	Unisci righe
+	Language Packs	Pacchetti lingua
+	Language packs aren't available in the browser	I pacchetti lingua non sono disponibili nel browser
+	Linux display server	Server grafico di Linux
+	Lowercase	Minuscole
+	Mark the whole document as:	Contrassegna l'intero documento come:
+	Markdown	Markdown
+	Markdown Source	Sorgente Markdown
+	Markdown Source takes up to 2 MB of text	La visualizzazione Sorgente Markdown accetta al massimo 2 MB di testo
+	Markdown Source Text	Testo sorgente Markdown
+	Missing Fonts	Caratteri mancanti
+	Mouse wheel scroll speed:	Velocità di scorrimento della rotellina del mouse:
+	None of the fonts this document is missing can be downloaded free of charge from their publisher.	Nessuno dei caratteri mancanti in questo documento può essere scaricato gratuitamente dal rispettivo editore.
+	not in a protected document	non disponibile in un documento protetto
+	not in Read Mode	non disponibile in Modalità di lettura
+	not with tracked changes	non disponibile con le revisioni
+	Nothing to redo	Niente da ripristinare
+	Nothing to undo	Niente da annullare
+	On X11, the touchpad follows the mouse wheel speed.	Su X11 il touchpad segue la velocità della rotellina del mouse.
+	only floating connectors in the body text can be glued	solo i connettori mobili nel corpo del documento si possono agganciare
+	only for Markdown (.md) files	solo per i file Markdown (.md)
+	only in Markdown Source	solo nella visualizzazione Sorgente Markdown
+spacing	Open	Arioso
+	OpenDocument Text Template (*.ott)	Modello di testo OpenDocument (*.ott)
+	Or install it for every app: copy the font files to the .local/share/fonts folder in your home folder, then restart WordCraft.	Oppure installalo per tutte le app: copia i file del carattere nella cartella .local/share/fonts della tua cartella home, poi riavvia WordCraft.
+	Or install it for every app: double-click each font file and choose Install in Font Book, then restart WordCraft.	Oppure installalo per tutte le app: fai doppio clic su ogni file del carattere e scegli Installa in Font Book, poi riavvia WordCraft.
+	Or install it for every app: select the font files, right-click and choose Install, then restart WordCraft.	Oppure installalo per tutte le app: seleziona i file del carattere, fai clic destro e scegli Installa, poi riavvia WordCraft.
+	Paragraph Tools	Strumenti paragrafo
+	Paragraph\nTools	Strumenti\nparagrafo
+	Pick the font files:	Scegli i file del carattere:
+	Reject All Changes and Stop Tracking	Rifiuta tutte le modifiche e disattiva le revisioni
+	Reject and Move to Next	Rifiuta e passa alla successiva
+	Remove Extra Spaces	Rimuovi spazi in eccesso
+	Remove Extra Spaces in the Whole Document	Rimuovi spazi in eccesso in tutto il documento
+	Remove Language Pack	Rimuovi pacchetto lingua
+	Remove Leading Spaces	Rimuovi spazi iniziali
+	Remove Leading Spaces in the Whole Document	Rimuovi spazi iniziali in tutto il documento
+	Remove Line Breaks	Rimuovi interruzioni di riga
+	Saved. Edits in the formatted view meant writing the Markdown out again, so its own layout wasn't kept.	Salvato. Per le modifiche nella visualizzazione formattata è stato necessario riscrivere il Markdown, quindi la sua disposizione originale non è stata mantenuta.
+	Scale Font Sizes	Scala le dimensioni dei caratteri
+	Screen Paper Color	Colore carta sullo schermo
+	Scrolling	Scorrimento
+	Select Canvas Member	Seleziona elemento dell'area di disegno
+	Separate Paragraphs	Separa paragrafi
+	Separate text with	Separa il testo con
+	Shown as {fonts} · {publisher}	Mostrato con {fonts} · {publisher}
+	Slow	Lenta
+	Soft gray	Grigio tenue
+	Soft green	Verde tenue
+	Split Lines into Paragraphs	Dividi righe in paragrafi
+	Status bar	Barra di stato
+	Strict Export Report	Report di esportazione rigorosa
+	Styles Pane Position	Posizione riquadro Stili
+	Symbol…	Simbolo…
+	Teal	Verde petrolio
+	Tell me when a document's missing fonts can be downloaded	Avvisami quando i caratteri mancanti di un documento si possono scaricare
+	Text in a missing font is shown in another font, so it may not look as it was written. The downloads are free of charge.	Il testo in un carattere mancante viene mostrato con un altro carattere, quindi può apparire diverso da come è stato scritto. I download sono gratuiti.
+	Then add it to WordCraft	Poi aggiungilo a WordCraft
+	This document has content Markdown can't hold. Changing the text here removes it; one Undo afterwards brings it back.	Questo documento contiene elementi che Markdown non può conservare. Se modifichi il testo qui, vengono rimossi; un solo Annulla subito dopo li ripristina.
+	Title case	Iniziali maiuscole
+	Touchpad scroll speed:	Velocità di scorrimento del touchpad:
+	Turquoise	Turchese
+	Uppercase	Maiuscole
+	Warm cream	Crema caldo
+	You can also right-click the count in the status bar to change it.	Puoi anche fare clic destro sul conteggio nella barra di stato per cambiarlo.
 	{key} starts a new page. Much tidier than pressing Enter until it happens.	{key} inizia una nuova pagina. Molto più ordinato che premere Invio finché non succede.
 	{key} finds and replaces text, formatting and special characters.	{key} trova e sostituisce testo, formattazione e caratteri speciali.
 	{key} turns the selected text into a link.	{key} trasforma il testo selezionato in un collegamento.
@@ -2565,7 +2680,9 @@ preview	Title	Esempio
 	{name} options	Opzioni di {name}
 	{name} wasn't found.	{name} non è stato trovato.
 	{n} entries marked.	Voci segnate: {n}.
+@plural	{n} font not installed|{n} fonts not installed	{n} carattere non installato|{n} caratteri non installati
 	{n} lines	Righe: {n}
+@plural	{n} missing font can be downloaded|{n} missing fonts can be downloaded	{n} carattere mancante scaricabile|{n} caratteri mancanti scaricabili
 	{n} pt	{n} pt
 	{selected} of {words} words	Parole: {words}; selezionate: {selected}
 	{size} pt	{size} pt
@@ -2575,7 +2692,11 @@ preview	Title	Esempio
 	{words} words and counting. Literally. I'm counting.	{words} parole e si continua. Letteralmente. Sto contando.
 	{words} words! I'd throw confetti but I'd have to clean it up.	{words} parole! Lancerei coriandoli, ma poi toccherebbe a me raccoglierli.
 	{words} words. That's {words} more than I've written today.	{words} parole. Sono {words} più di quante ne abbia scritte io oggi.
+	ΔLOC	ΔLOC
 	“{text}” ({row}, {series}) isn't a number.	“{text}” ({row}, {series}) non è un numero.
+@plural	…and {n} more|…and {n} more	…e {n} altro|…e altri {n}
+	−LOC	−LOC
+	✓ Automatic	✓ Automatico
 	✓ None	✓ Nessuno
 	➕ New comment	➕ Nuovo commento
 	📂  Browse…	📂  Sfoglia…
